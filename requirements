@@ -1,0 +1,10 @@
+Design a simple chat app using socket.io, postgres, nodejs and react.
+
+It should support group chats and one-on-one chats.
+It should connect to same socket instance on disconnection.
+It should switch between long polling and sockets, incase sockets are not working.
+It should stream back lost messages when user reconnects.
+It should be able to scale to multiple Socket.IO servers.
+
+Note:
+When scaling to multiple Socket.IO servers, you will need to replace the default in-memory adapter by another implementation.
