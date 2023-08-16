@@ -26,10 +26,10 @@ const io = socketIO(server, {
 const PORT = process.env.PORT || 3001;
 
 const pool = new pg.Pool({
-    user: '',
-    host: '',
-    database: '',
-    password: '',
+    user: 'default',
+    host: 'ep-lingering-darkness-35029060-pooler.us-east-1.postgres.vercel-storage.com',
+    database: 'verceldb',
+    password: 'ugJ3OkdK1tba',
     port: 5432,
     ssl: {
         rejectUnauthorized: false,
